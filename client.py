@@ -3,9 +3,8 @@ import threading
 import sys
 
 username = input("Enter your username: ")
-password = input("Enter your password: ")
 
-host = '192.168.1.9'
+host = '127.0.0.1'
 port = 30000
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
